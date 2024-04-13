@@ -2,6 +2,29 @@
   height: 100vh;
   width: 100vw;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-self: center;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
+}
+
+input {
+  padding: 10px;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 10px;
+  display: flex;
+  justify-content: space-between;
 }
